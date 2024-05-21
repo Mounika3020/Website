@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100,300,400,500,600,700,800,900&display=swap');
+
+body {
+    font-family: 'Big Shoulders Text', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+    font-weight: 400;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+
+.hero-section {
+    height: 500px; 
+    background: url('img/hero-background.jpg') center center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.hero-section .container {
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 3.5em;
+    font-weight: 700;
+}
+
+.hero-section p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+
+.about-section {
+    padding: 50px 0;
+    background-color: #f3f3f3;
+}
+
+.about-section .section-heading {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.about-section img {
+    max-width: 50%;
+    height: 100px;
+}
+
+/* Carousel Section */
+.carousel-section .carousel {
+    height: 100px; /* Reduced height */
+}
+
+.carousel-section .carousel-item img {
+    width: 50%; /* Percentage width */
+            height: 100px; /* Fixed height in pixels */
+            overflow: hidden;
+            
+    
+}
+
+/* Reservation and Contact Section */
+.reservation-section {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.reservation-section .section-heading {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.reservation-section .form-group {
+    margin-bottom: 20px;
+}
+
+.reservation-section .form-group label {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.reservation-section .form-group input {
+    font-size: 1em;
+    padding: 10px;
+    width: 100%;
+}
+
+.reservation-section .btn-primary {
+    font-size: 1.2em;
+    padding: 10px 20px;
+}
+
+.opening-time {
+    font-size: 1.2em;
+    margin-top: 30px;
+}
+
+.opening-time p {
+    margin-bottom: 10px;
+}
+
+/* Footer Section */
+.footer-section {
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.footer-section p {
+    margin: 0;
+    font-size: 1em;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero-section {
+        height: 300px; /* Adjust height for smaller screens */
+    }
+
+    .hero-section h1 {
+        font-size: 2.5em;
+    }
+
+    .hero-section p {
+        font-size: 1.2em;
+    }
+
+    .about-section .section-heading,
+    .reservation-section .section-heading {
+        font-size: 2em;
+    }
+
+    .carousel-section .carousel,
+    .carousel-section .carousel-item img {
+        height: 300px; /* Reduced height for smaller screens */
+    }
+}
